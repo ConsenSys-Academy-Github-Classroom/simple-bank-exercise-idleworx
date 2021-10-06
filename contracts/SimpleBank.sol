@@ -120,7 +120,7 @@ contract SimpleBank {
         Node v14.17.6                                                                         
       */  
       // (bool sent, bytes memory data) = msg.sender.call{value:withdrawAmount}("");
-      // require(sent, "Failed to send Ether");
+      // require(sent, "Failed to send Ether") ;
       
       msg.sender.transfer(withdrawAmount);
   
